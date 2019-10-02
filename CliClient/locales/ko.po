@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Joplin-CLI 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: \n"
+"Last-Translator: cybertramp <paran_son@outlook.com>\n"
 "Language-Team: \n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -17,24 +17,24 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "To delete a tag, untag the associated notes."
-msgstr "태그를 삭제하려면 먼저 연결된 노트의 태그를 해제해주세요."
+msgstr "태그를 삭제하려면 먼저 연결된 노트의 태그를 해제하세요"
 
 msgid "Please select the note or notebook to be deleted first."
 msgstr "삭제할 노트나 노트북을 먼저 선택해주세요."
 
 msgid "Press Ctrl+D or type \"exit\" to exit the application"
-msgstr "Ctrl+D 키를 누르거나 혹은 “exit\"를 입력해서 종료해주세요"
+msgstr "Ctrl+D 키를 누르거나 혹은 "exit\"를 입력하여 종료하세요."
 
 #, javascript-format
 msgid "More than one item match \"%s\". Please narrow down your query."
 msgstr ""
-"\"%s\"에 대한 하나 이상의 항목이 일치합니다. 검색 범위를 한번 좁혀보세요."
+"\"%s\"에 대한 하나 이상의 항목이 일치합니다. 검색 범위를 좁혀보세요"
 
 msgid "No notebook selected."
 msgstr "선택된 노트북이 없습니다."
 
 msgid "No notebook has been specified."
-msgstr "특정된 노트북이 없습니다."
+msgstr "노트북이 지정되지 않았습니다."
 
 msgid "Y"
 msgstr "Y"
@@ -57,7 +57,7 @@ msgstr "다음 명령어가 없습니다: %s"
 
 #, javascript-format
 msgid "The command \"%s\" is only available in GUI mode"
-msgstr "\"%s\" 명령어는 그래픽 인터페이스 모드에서만 사용 가능합니다"
+msgstr "해당 \"%s\" 명령어는 그래픽 인터페이스 모드에서만 사용 가능합니다"
 
 msgid "Cannot change encrypted item"
 msgstr "암호화된 항목을 변경할 수 없습니다"
@@ -114,8 +114,8 @@ msgid ""
 "Duplicates the notes matching <note> to [notebook]. If no notebook is "
 "specified the note is duplicated in the current notebook."
 msgstr ""
-"<note>와 일치하는 노트를 [notebook]에 복제합니다. 노트북이 특정되지 않았다면 "
-"노트는 현재의 노트북에 복제됩니다."
+"<note>와 일치하는 노트를 [notebook]에 복제합니다. 노트북이 지정되지 않은 경우"
+"노트는 현재 노트북에 복제됩니다."
 
 msgid "Marks a to-do as done."
 msgstr "'할 일' 항목을 완료로 표시합니다."
@@ -132,17 +132,17 @@ msgstr ""
 "`disable`, `decrypt`, `status`, `target-status` 들이 있습니다."
 
 msgid "Enter master password:"
-msgstr "마스터 키를 넣어주세요:"
+msgstr "마스터 비밀번호를 입력하세요:"
 
 msgid "Operation cancelled"
-msgstr "작업이 중지되었습니다"
+msgstr "작업이 취소되었습니다"
 
 msgid ""
 "Starting decryption... Please wait as it may take several minutes depending "
 "on how much there is to decrypt."
 msgstr ""
-"복호화를 시작합니다... 복호화 양에 따라서 몇 분 정도 걸릴수 있으니 잠시 기다"
-"러주세요."
+"복호화를 시작합니다... 복호화 양에 따라서 몇 분 정도 걸릴수 있으니 잠시 "
+"기다려주세요."
 
 msgid "Completed decryption."
 msgstr "복호화가 완료되었습니다."
@@ -163,15 +163,15 @@ msgstr "노트를 편집합니다."
 msgid ""
 "No text editor is defined. Please set it using `config editor <editor-path>`"
 msgstr ""
-"텍스트 편집기가 지정되지 않았습니다. `config editor <editor-path>` 명령어로 "
-"지정해주세요"
+"텍스트 편집기가 지정되지 않았습니다. `config editor <editor-path>` 명령어를 사용하여 "
+"지정하세요."
 
 msgid "No active notebook."
 msgstr "활성화된 노트북이 없습니다."
 
 #, javascript-format
 msgid "Note does not exist: \"%s\". Create it?"
-msgstr "\"%s\" 노트가 존재하지 않습니다. 새로 만들까요?"
+msgstr "\"%s\" 노트가 존재하지 않습니다. 생성할까요?"
 
 msgid "Exits the application."
 msgstr "애플리케이션을 종료합니다."
@@ -181,7 +181,7 @@ msgid ""
 "complete database including notebooks, notes, tags and resources."
 msgstr ""
 "Joplin의 데이터를 주어진 경로로 내보냅니다. 기본적으로 노트북, 노트, 태그, 기"
-"타 자원을 포함한 완전한 데이터베이스를 내보내게 됩니다."
+"타 자원을 포함한 전체 데이터베이스를 내보내게 됩니다."
 
 #, javascript-format
 msgid "Destination format: %s"
@@ -197,21 +197,21 @@ msgid "Displays a geolocation URL for the note."
 msgstr "노트 위치 URL을 표시합니다."
 
 msgid "Displays usage information."
-msgstr "얼마나 썼는지 표시합니다."
+msgstr "사용 정보를 표시합니다."
 
 #, javascript-format
 msgid "For information on how to customise the shortcuts please visit %s"
-msgstr "바로가기를 편집하는 것은 여기서 찾아보실 수 있습니다: %s"
+msgstr "바로가기를 편집하는 방법에 대한 자세한 내용은 다음을 참조하세요: %s"
 
 msgid "Shortcuts are not available in CLI mode."
-msgstr "바로가기는 명령줄 인터페이스 모드에서는 사용할 수 없습니다."
+msgstr "CLI 모드에서는 바로가기를 사용할 수 없습니다."
 
 msgid ""
 "Type `help [command]` for more information about a command; or type `help "
 "all` for the complete usage information."
 msgstr ""
-"명령어에 관한 정보는 `help [command]`를 입력하시면 찾으실 수 있습니다. 'help "
-"all'을 입력하시면 완전한 명령어 용법에 대한 정보를 보실 수 있습니다."
+"명령어에 자세한 내용을 보려면 `help [command]`를 입력하거나, 'help "
+"all'을 입력하세요."
 
 msgid "The possible commands are:"
 msgstr "가능한 명령어는 다음과 같습니다:"
@@ -222,31 +222,31 @@ msgid ""
 "note or notebook. `$c` can be used to refer to the currently selected item."
 msgstr ""
 "어느 명령어에서든, 노트 또는 노트북에서 제목이나 ID를 통해 참조할 수 있습니"
-"다. 현재 선택된 노트 또는 노트북의 경우 `$n` 이나 `$b`같은 바로가기로, 현재 "
+"다. 현재 선택된 노트 또는 노트북의 경우 `$n`이나 `$b`같은 바로가기로, 현재 "
 "선택된 항목의 경우 `$c`로 참조할 수 있습니다."
 
 msgid "To move from one pane to another, press Tab or Shift+Tab."
-msgstr "한 패널에서 다른 패널로 옮기려면 Tab키 또는 Shift+Tab 키를 누르세요."
+msgstr "한 패널에서 다른 패널로 옮기려면 Tab 또는 Shift+Tab 를 누르세요."
 
 msgid ""
 "Use the arrows and page up/down to scroll the lists and text areas "
 "(including this console)."
 msgstr ""
-"화살표 키와 Page Up/Down 키를 눌러 목록이나 텍스트 영역을 스크롤 하세요 (현"
-"재 콘솔 포함)."
+"목록과 텍스트 영역을 스크롤하려면 화살표키와 page up/down키를 사용하세요"
+"(콘솔 포함)."
 
 msgid "To maximise/minimise the console, press \"tc\"."
-msgstr "콘솔을 최대화/최소화 하려면 \"tc\"를 눌러주세요."
+msgstr "콘솔을 최대화/최소화 하려면 \"tc\"를 누르세요."
 
 msgid "To enter command line mode, press \":\""
-msgstr "명령줄 모드로 진입하시려면 \":\"를 눌러주세요."
+msgstr "명령줄 모드로 진입하시려면 \":\"를 누르세요."
 
 msgid "To exit command line mode, press ESCAPE"
-msgstr "명령줄 모드를 종료하시려면 ESC를 눌러주세요"
+msgstr "명령줄 모드를 종료하려면 ESC를 누르세요."
 
 msgid ""
 "For the list of keyboard shortcuts and config options, type `help keymap`"
-msgstr "키보드 단축키 및 설정 옵션을 변경하려면 `help keymap`을 입력해주세요"
+msgstr "키보드 단축키 및 설정 옵션을 보려면 `help keymap`을 입력해주세요"
 
 msgid "Imports data into Joplin."
 msgstr "데이터를 Joplin으로 가져옵니다."
@@ -272,7 +272,7 @@ msgstr "업데이트됨: %d."
 
 #, javascript-format
 msgid "Skipped: %d."
-msgstr "넘겨짐: %d."
+msgstr "건너뜀: %d."
 
 #, javascript-format
 msgid "Resources: %d."
@@ -293,15 +293,15 @@ msgid ""
 "Displays the notes in the current notebook. Use `ls /` to display the list "
 "of notebooks."
 msgstr ""
-"현재 노트북에 있는 노트를 표시합니다. `ls /`로 노트북의 목록을 확인하실 수 있"
+"현재 노트북의 노트들을 표시합니다. `ls /`로 노트북들의 목록을 확인할 수 있"
 "습니다."
 
 msgid "Displays only the first top <num> notes."
-msgstr "맨 처음 <num> 노트만 표시합니다."
+msgstr "첫 번째 최상위 <num> 노트들만 표시합니다."
 
 msgid "Sorts the item by <field> (eg. title, updated_time, created_time)."
 msgstr ""
-"항목을 <field>별로 정렬합니다 (예시: title, updated_time, created_time)."
+"<field>를 기준으로 항목을 정렬합니다 (예시: 제목, 업데이트 시간, 생성된 시간)."
 
 msgid "Reverses the sorting order."
 msgstr "정렬 순서를 바꿉니다."
@@ -311,7 +311,7 @@ msgid ""
 "for to-dos, or `nt` for notes and to-dos (eg. `-tt` would display only the "
 "to-dos, while `-ttd` would display notes and to-dos."
 msgstr ""
-"특정 형식의 항목만 표시합니다. 노트의 경우 `n`, 할 일의 경우 `t`, 노트와 할 "
+"특정 형식의 항목들만 표시합니다. 노트의 경우 `n`, 할 일의 경우 `t`, 노트와 할 "
 "일 모두는 `nt` 입니다. (예시: 할 일은 `-tt`, 노트와 할 일은 `-ttd`)."
 
 msgid "Either \"text\" or \"json\""
@@ -328,16 +328,16 @@ msgid "Please select a notebook first."
 msgstr "노트북을 먼저 선택해주세요."
 
 msgid "Creates a new notebook."
-msgstr "새 노트북을 만듭니다."
+msgstr "새 노트북을 생성합니다."
 
 msgid "Creates a new note."
-msgstr "새 노트를 만듭니다."
+msgstr "새 노트를 생성합니다."
 
 msgid "Notes can only be created within a notebook."
-msgstr "노트는 노트북 속에서만 만들 수 있습니다."
+msgstr "노트는 노트북 내에서만 생성할 수 있습니다."
 
 msgid "Creates a new to-do."
-msgstr "새 '할 일'을 만듭니다."
+msgstr "새 '할 일'을 생성합니다."
 
 msgid "Moves the notes matching <note> to [notebook]."
 msgstr "<note>와 일치하는 노트를 [notebook]으로 옮깁니다."
@@ -349,20 +349,20 @@ msgid "Deletes the given notebook."
 msgstr "해당 노트북을 삭제합니다."
 
 msgid "Deletes the notebook without asking for confirmation."
-msgstr "확인을 거치지 않고 노트북을 삭제합니다."
+msgstr "확인 없이 노트북을 삭제합니다."
 
 msgid ""
 "Delete notebook? All notes and sub-notebooks within this notebook will also "
 "be deleted."
 msgstr ""
-"이 노트북을 삭제할까요? 이 노트북 안에 있는 모든 노트와 더불어 하위 노트북들"
+"이 노트북을 삭제할까요? 이 노트북 안의 모든 노트와 하위 노트북들"
 "도 함께 삭제됩니다."
 
 msgid "Deletes the notes matching <note-pattern>."
 msgstr "<note-pattern>에 일치하는 노트를 삭제합니다."
 
 msgid "Deletes the notes without asking for confirmation."
-msgstr "확인을 거치지 않고 노트를 삭제합니다."
+msgstr "확인 없이 노트를 삭제합니다."
 
 #, javascript-format
 msgid "%d notes match this pattern. Delete them?"
@@ -379,19 +379,19 @@ msgid ""
 "Start, stop or check the API server. To specify on which port it should run, "
 "set the api.port config variable. Commands are (%s)."
 msgstr ""
-"API 서버를 시작, 중지 혹은 확인할수 있습니다. 실행할 포트를 지정하실려면, "
-"api.port 변수 설정을 변경해주세요. 명령어는 (%s) 입니다."
+"API 서버를 시작, 중지 또는 확인하세요. 실행할 포트를 지정하려면 "
+"api.port 변수를 설정하세요. 명령어는 (%s) 입니다."
 
 #, javascript-format
 msgid "Server is already running on port %d"
-msgstr "서버가 이미 포트 %d에서 동작하고 있습니다"
+msgstr "서버가 이미 포트 %d에서 실행 중입니다."
 
 #, javascript-format
 msgid "Server is running on port %d"
-msgstr "서버가 포트 %d에서 동작하고 있습니다"
+msgstr "서버가 포트 %d에서 실행 중입니다"
 
 msgid "Server is not running."
-msgstr "서버가 동작하지 않습니다."
+msgstr "서버가 실행되고 있지 않습니다."
 
 #, javascript-format
 msgid ""
@@ -406,10 +406,10 @@ msgstr ""
 "%s"
 
 msgid "Displays summary about the notes and notebooks."
-msgstr "노트와 노트북에 관한 요약 정보를 표시합니다."
+msgstr "노트와 노트북에 대한 요약 정보를 표시합니다."
 
 msgid "Synchronises with remote storage."
-msgstr "원격 저장소와 동기화 합니다."
+msgstr "원격 저장소와 동기화합니다."
 
 msgid "Sync to provided target (defaults to sync.target config value)"
 msgstr "지정된 대상으로 동기화 합니다 (기본값은 sync.target config value)"
@@ -420,20 +420,20 @@ msgstr "인증이 완료되지 않았습니다 (인증 토큰을 받을 수 없�
 
 msgid ""
 "To allow Joplin to synchronise with Dropbox, please follow the steps below:"
-msgstr "Joplin을 Dropbox와 동기화하려면 다음 절차를 따라주세요:"
+msgstr "Joplin을 Dropbox와 동기화하려면 다음 절차를 따르세요:"
 
 msgid "Step 1: Open this URL in your browser to authorise the application:"
-msgstr "1단계: 브라우저에서 이 URL에 접근하여 애플리케이션을 허가합니다:"
+msgstr "1단계: 브라우저에서 이 URL을 열어 애플리케이션을 승인하세요:"
 
 msgid "Step 2: Enter the code provided by Dropbox:"
 msgstr "2단계: Dropbox에서 제공하는 코드를 입력합니다:"
 
 #, javascript-format
 msgid "Not authentified with %s. Please provide any missing credentials."
-msgstr "%s과 인증되지 않았습니다. 증명서를 제공해주세요."
+msgstr "%s과 인증되지 않았습니다. 누락된 증명서를 제공하세요."
 
 msgid "Synchronisation is already in progress."
-msgstr "이미 동기화가 진행중입니다."
+msgstr "동기화가 이미 진행중입니다."
 
 #, javascript-format
 msgid ""
@@ -441,7 +441,7 @@ msgid ""
 "taking place, you may delete the lock file at \"%s\" and resume the "
 "operation."
 msgstr ""
-"잠금 파일이 이미 대기중입니다. 만약 동기화가 시작되지 않는다면 \"%s\"에서 잠"
+"잠금 파일이 이미 보류중입니다. 만약 동기화가 수행되고 있지 않다면 \"%s\"에서 잠"
 "금 파일을 삭제하고 작업을 재개하실 수 있습니다."
 
 #, javascript-format
